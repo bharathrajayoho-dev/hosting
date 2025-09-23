@@ -66,7 +66,6 @@ function Login() {
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="owner@propertyrms.com"
                 className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#ed3237] focus:border-transparent transition-all"
-                defaultValue=""
               />
             </div>
 
@@ -79,7 +78,6 @@ function Login() {
                   onChange={(e) => setPassword(e.target.value)}
                   placeholder="Enter your password"
                   className="w-full border border-gray-300 rounded-lg px-4 py-3 pr-12 focus:ring-2 focus:ring-[#ed3237] focus:border-transparent transition-all"
-                  defaultValue=""
                 />
                 <button
                   type="button"
